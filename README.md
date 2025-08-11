@@ -1,5 +1,5 @@
 # insurance-project
-Testing selenium pipeline
+Testing whole pipline
 This project will help you to understand various concept related to Insurace domain. Please read the Insurace-domain.pdf to get more functional knowledge on 
 Insurace domain. 
 
