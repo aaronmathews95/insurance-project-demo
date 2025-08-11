@@ -12,7 +12,7 @@
     command: sudo systemctl start docker
 
   - name: stop existing app if it is running
-    command: docker ps -q -f name=insure-me && docker stop insure-me && docker rm insure-me || true
+    shell: docker ps -q -f name=insure-me && docker stop insure-me && docker rm insure-me || true
   
   - name: deploy insureme application
     command: sudo docker run -itd -p 8081:8081 shubhamkushwah123/insure-me:1.0
